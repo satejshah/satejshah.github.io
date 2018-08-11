@@ -702,7 +702,7 @@
 								<div id="form_card_height" class="col-sm-12 mb-30">
 									<div  class="mdl-card mdl-shadow--2dp" data-ng-controller="ContactController">
 										<h4 class="mb-10 font-unsetcase">Hey there, happy to hear from you!</h4>
-										<form data-ng-submit="submit(contactform, $event)"  name="contactform"  method="post" action="phpmailer/PHPMailerAutoload.php" class=" form-horizontal mb-30" role="form">
+										<form method="post" action="contact-form.php" name="contactform" id="contactform" class=" form-horizontal mb-30">
 											<div class="form-group" data-ng-class="{ 'has-error': contactform.inputName.$invalid && submitted }">
 												<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
 													<input autocomplete="off" data-ng-model="formData.inputName" class="mdl-textfield__input" type="text" id="inputName" name="inputName" required>
