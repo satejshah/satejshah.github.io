@@ -733,20 +733,26 @@
 										</form>
 										<p class="block result" data-ng-class="result">{{ resultMessage }}</p>
 									</div>-->
-                                    
-        <h4>Shoot me a message!</h4>
-        
-        <form method="post" action="contact-form.php" name="contactform" id="contactform">
-          <input name="inputName" id="inputName" type="text" class="mdl-textfield__input" placeholder="name" >
-          <input name="inputEmail" id="inputEmail" type="email" class=" mdl-textfield__input" placeholder="Your email...">
-          <textarea name="inputMessage" id="inputMessage" class="mdl-textfield__input" placeholder="Your message..."></textarea>
-          <input type="submit" id="submit" name="send" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect  bg-blue font-white" value="Send message">
-          <div id="simple-msg"></div>
-        </form>
-      </div>
+                                        <div  class="mdl-card mdl-shadow--2dp">
+                                        <h4 class="mb-10 font-unsetcase">Hey there, happy to hear from you!</h4>
+
+                                        <form method="post" action="contact-form.php" name="contactform" id="contactform">
+                                          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input name="inputName" id="inputName" type="text" class="mdl-textfield__input" placeholder="Name" >
+                                          </div>
+                                          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                          <input name="inputEmail" id="inputEmail" type="email" class=" mdl-textfield__input" placeholder="Email">
+                                          </div>
+                                          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                          <textarea name="inputMessage" id="inputMessage" class="mdl-textfield__input" placeholder="Message"></textarea>
+                                          </div>
+                                          <input type="submit" id="submit" name="send" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect  bg-blue font-white" value="Send message">
+                                          <div id="simple-msg"></div>
+                                        </form>
+                                      </div>
+                                    </div>
 								</div>
-							</div>
-						</section>
+                        </section>
 						<!--/Contact Sec-->
 						
 						<!--Footer Sec-->
