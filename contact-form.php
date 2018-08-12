@@ -9,9 +9,9 @@ function isEmail($email) {
 
 if (!defined("PHP_EOL")) define("PHP_EOL", "\r\n");
 
-$name     = $_POST['inputName'];
-$email    = $_POST['inputEmail'];
-$message  = $_POST['inputMessage'];
+$name     = $_POST['name'];
+$email    = $_POST['email'];
+$comments  = $_POST['comments'];
 
 if(trim($name) == ''){
     echo '<div class="error_message">You must enter your name.</div>';
@@ -24,9 +24,13 @@ if(trim($name) == ''){
 	exit();
 }
 
-if(trim($message) == ''){
+if(trim($comments) == ''){
     echo '<div class="error_message">Please enter your message.</div>';
 	exit();
+}
+
+if(get_magic_quotes_gpc()){
+    $comments = stripslashes($comments);
 }
 
 
@@ -76,3 +80,4 @@ if(mail($address, $e_subject, $msg, $headers)) {
 	echo 'ERROR!';
 
 }
+?>

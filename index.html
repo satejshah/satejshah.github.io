@@ -733,7 +733,7 @@
 										</form>
 										<p class="block result" data-ng-class="result">{{ resultMessage }}</p>
 									</div>-->
-                                        <div  class="mdl-card mdl-shadow--2dp">
+                                        <!--<div  class="mdl-card mdl-shadow--2dp">
                                         <h4 class="mb-10 font-unsetcase">Hey there, happy to hear from you!</h4>
 
                                         <form method="post" action="contact-form.php" name="contactform" id="contactform">
@@ -746,6 +746,18 @@
                                           <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                                           <textarea name="inputMessage" id="inputMessage" class="mdl-textfield__input" placeholder="Message"></textarea>
                                           </div>
+                                          <input type="submit" id="submit" name="send" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect  bg-blue font-white" value="Send message">
+                                          <div id="simple-msg"></div>
+                                        </form>
+                                      </div>-->
+                                          <!--contact form start-->
+                                      <div class="col-xs-12 col-sm-9 col-md-8 col-lg-8 conForm">
+                                        <h4>Shoot me a message!</h4>
+                                        <div id="message"></div>
+                                        <form method="post" action="php/contact.php" name="cform" id="cform">
+                                          <input name="name" id="name" type="text" class="col-xs-12 col-sm-6 col-md-6 col-lg-6" placeholder="Your name..." >
+                                          <input name="email" id="email" type="email" class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 noMarr" placeholder="Your email..." >
+                                          <textarea name="comments" id="comments" cols="" rows="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Your message..."></textarea>
                                           <input type="submit" id="submit" name="send" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect  bg-blue font-white" value="Send message">
                                           <div id="simple-msg"></div>
                                         </form>
