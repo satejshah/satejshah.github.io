@@ -1,5 +1,6 @@
 <?php
 
+require_once "Mail.php"
 if(!$_POST) exit;
 
 // Email address verification, do not edit.
