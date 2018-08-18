@@ -1,40 +1,23 @@
 <?php
 
-echo "***** Satej Shah *****\n";
-
+//require '/phpmailer/PHPMailerAutoload.php';
+if(isset($_POST["submit"])) {
+    echo "***** Satej Shah *****\n";
+}
 /* require_once "Mail.php";
-error_reporting(E_ALL);
-set_time_limit(0);
+if(isset($_POST["submit"])) {
+$recipient = "satejshah@gmail.com"; //my email
+echo $subject = 'Email message from Point Plumbing';
+echo $name = $_POST ["name"];
+echo $email = $_POST["email"];
+echo  $message = $_POST["comments"];
 
-set_include_path(get_include_path() . PATH_SEPARATOR . './Classes/');
+$mailBody="Name: $name\nEmail: $email\n\n$message"; 
 
-	function send_email ($subject, $message) {
-		$fileType = 'Excel5';
-		$fileName = 'JSG_Volleyball.xls';
+mail($recipient, $subject, $mailBody, "From: $name <$email>");
 
-		$bcc = "email";
-		$i=0;
-		
-		$objReader = PHPExcel_IOFactory::createReader($fileType);
-		$objPHPExcel = $objReader->load($fileName);
+echo $thankYou="<p>Thank you! We will be in contact with you shortly.</p>";
 
-		$sheetData = $objPHPExcel->getActiveSheet()->toArray(null,true,true,true);
-
-		foreach ($sheetData as $row_num => $row) {
-			if (preg_match('/@/',$row['A'])) {
-				if ($i === 0) {
-					$bcc = $row['A'].", ";
-					$i++;
-				} else {
-					$next_row = $row_num+1;
-					$next_email = $objPHPExcel->getActiveSheet()->getCell('A'.$next_row)->getValue();
-					if (preg_match('/@/', $next_email)) {
-						$bcc .= $row['A'].", ";
-					} else {
-						$bcc .= $row['A'];
-					}
-				}
-			}
-		}*/
+}*/
 	
 ?>
