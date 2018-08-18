@@ -1,8 +1,6 @@
 <?php
 
-error_reporting(E_ALL);
-ini_set('display_errors', '1');
-require_once 'phpmailer/PHPMailerAutoload.php';
+require 'phpmailer/PHPMailerAutoload.php';
 if(!$_POST) exit;
 
 // Email address verification, do not edit.
