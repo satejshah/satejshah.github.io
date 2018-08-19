@@ -42,7 +42,7 @@
 							<li><a class="mdl-navigation__link" data-scroll href="#skills_sec">skills</a></li>
 							<li><a class="mdl-navigation__link" data-scroll href="#education_sec">education</a></li>
 							<li><a class="mdl-navigation__link" data-scroll href="#references_sec">references</a></li>
-							<!--<li><a class="mdl-navigation__link" data-scroll href="#contact_sec">contact</a></li>-->
+							<li><a class="mdl-navigation__link" data-scroll href="#contact_sec">contact</a></li>
 						</ul>
 					</div>
 				</header>
@@ -129,12 +129,12 @@
 									</a>
 								</li>	
 
-								<!--<li>
+								<li>
 									<a class="mdl-navigation__link border-top-sep border-bottom-sep" 	data-scroll  href="#contact_sec">
 										<i class="zmdi zmdi-email pr-15"></i>
 										<span class="font-capitalize">contact</span>
 									</a>
-								</li>-->	
+								</li>	
 
 							</ul>
 						</div>
@@ -211,11 +211,9 @@
 													</li>
                                                     <li>
 														<div class="profile-title">email</div>
-														<div class="profile-desc">
-															satejshah@gmail.com
-														</div>
+                                                        <a href="mailto:satejshah@gmail.com" class="profile-desc">satejshah@gmail.com</a>
+												
 													</li>
-   <!--                                                 <li><a href="mailto:satejshah@gmail.com" class="profile-desc">satejshah@gmail.com</a></li>-->
                                                     <li>
 														<div class="profile-title">address</div>
 														<div class="profile-desc">
@@ -706,19 +704,9 @@
 								<div id="form_card_height" class="col-sm-12 mb-30">
 									<div  class="mdl-card mdl-shadow--2dp" id="message" data-ng-controller="ContactController">
 										<h4 class="mb-10 font-unsetcase">Hey there, happy to hear from you!</h4>
-                                        <form id="form1" id="form1" action="temp.php" method="POST">
-
-                                        <input type="text" name="name" placeholder = "Your Name">
-                                        <input type="text" name="email" placeholder = "Your E-Mail">
-                                        <input type="text" name="subject" placeholder = "Subject">
-                                        <textarea name="message" rows="5" placeholder = "Message"></textarea><br />
-
-                                            <button type="submit" value="Send" style="margin-top:15px;">Submit</button>
-                                        <div class="spacer"></div>
-
-                                        </form>
+        
                                         
-                                        <!--<form method="post" action="contact.php" name="contactform" id="contactform">
+                                        <form method="post" action="contact.php" name="contactform" id="contactform">
                                           <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                                             <input name="name" id="name" type="text" class="mdl-textfield__input" placeholder="Name" >
                                           </div>
@@ -730,7 +718,9 @@
                                           </div>
                                           <input type="submit" id="submit" name="send" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect  bg-blue font-white" value="Send message">
                                           <div id="simple-msg"></div>
-                                        </form>-->
+                                        </form>
+                                        
+                                        
                                     </div>
 								</div>
                             </div>
