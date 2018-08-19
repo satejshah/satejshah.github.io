@@ -1648,7 +1648,7 @@ blockquote {
     .footer-sec .social-icons li a.instagram-link:hover i {
       color: #3f729b; }
     .footer-sec .social-icons li a.email-link:hover i {
-      color: #3f729b; }
+      color: greenyellow; }
 
 /*Navigation Sec*/
 .navigation-block a {
