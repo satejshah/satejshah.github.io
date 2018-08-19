@@ -699,13 +699,25 @@
 						<!--/References Sec-->
                         
                         <!--Contact Sec-->
-						<!--<section id="contact_sec" class="contact-sec sec-pad-top-sm">
+						<section id="contact_sec" class="contact-sec sec-pad-top-sm">
 							<h2 class="mb-30">contact</h2>
 							<div class="row">
 								<div id="form_card_height" class="col-sm-12 mb-30">
 									<div  class="mdl-card mdl-shadow--2dp" id="message" data-ng-controller="ContactController">
 										<h4 class="mb-10 font-unsetcase">Hey there, happy to hear from you!</h4>
-                                        <form method="post" action="temp.php" name="contactform" id="contactform">
+                                        <form id="form1" id="form1" action="temp.php" method="POST">
+
+                                        <input type="text" name="name" placeholder = "Your Name">
+                                        <input type="text" name="email" placeholder = "Your E-Mail">
+                                        <input type="text" name="subject" placeholder = "Subject">
+                                        <textarea name="message" rows="5" placeholder = "Message"></textarea><br />
+
+                                            <button type="submit" value="Send" style="margin-top:15px;">Submit</button>
+                                        <div class="spacer"></div>
+
+                                        </form>
+                                        
+                                        <!--<form method="post" action="temp.php" name="contactform" id="contactform">
                                           <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                                             <input name="name" id="name" type="text" class="mdl-textfield__input" placeholder="Name" >
                                           </div>
@@ -717,22 +729,12 @@
                                           </div>
                                           <input type="submit" id="submit" name="send" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect  bg-blue font-white" value="Send message">
                                           <div id="simple-msg"></div>
-                                        </form>
+                                        </form>-->
                                     </div>
 								</div>
                             </div>
-                        </section>-->
-                        <form id="form1" id="form1" action="temp.php" method="POST">
-
-                        <input type="text" name="name" placeholder = "Your Name">
-                        <input type="text" name="email" placeholder = "Your E-Mail">
-                        <input type="text" name="subject" placeholder = "Subject">
-                        <textarea name="message" rows="5" placeholder = "Message"></textarea><br />
-
-                            <button type="submit" value="Send" style="margin-top:15px;">Submit</button>
-                        <div class="spacer"></div>
-
-                        </form>
+                        </section>
+                    
 						<!--/Contact Sec-->
 						
 						<!--Footer Sec-->
