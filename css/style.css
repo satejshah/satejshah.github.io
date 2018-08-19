@@ -133,6 +133,10 @@ h5 {
 p {
   font-size: 15px;
   line-height: 25px; }
+p2 {
+  color: white;
+  font-size: 15px;
+  line-height: 25px; }
   p.lead {
     font-size: 18px;
     line-height: 30px;
@@ -1023,6 +1027,8 @@ blockquote {
         color: #ea4c89; }
       .mdl-layout__drawer .social-icons li a.instagram-link:hover i {
         color: #3f729b; }
+      .mdl-layout__drawer .social-icons li a.email-link:hover i {
+        color: greenyellow; }
   .mdl-layout__drawer .mdl-navigation {
     padding-top: 0; }
     .mdl-layout__drawer .mdl-navigation li .mdl-navigation__link {
@@ -1224,10 +1230,13 @@ blockquote {
       color: #55acee; }
     .about-sec .social-icons li a.linkedin-link:hover i {
       color: #007bb6; }
-    .about-sec .social-icons li a.dribbble-link:hover i {
-      color: #ea4c89; }
+    .about-sec .social-icons li a.dribble-link:hover i {
+      color: #007bb6; }
     .about-sec .social-icons li a.instagram-link:hover i {
       color: #3f729b; }
+    .about-sec .social-icons li a.email-link:hover i {
+      color: greenyellow; }
+
 .about-sec .profile-wrap li {
   margin-bottom: 8px; }
   .about-sec .profile-wrap li:last-child {
@@ -1637,6 +1646,8 @@ blockquote {
     .footer-sec .social-icons li a.dribbble-link:hover i {
       color: #ea4c89; }
     .footer-sec .social-icons li a.instagram-link:hover i {
+      color: #3f729b; }
+    .footer-sec .social-icons li a.email-link:hover i {
       color: #3f729b; }
 
 /*Navigation Sec*/
