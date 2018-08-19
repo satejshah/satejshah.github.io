@@ -1,6 +1,5 @@
 <?php
 
-require 'phpmailer/PHPMailerAutoload.php';
 if(!$_POST) exit;
 
 // Email address verification, do not edit.
