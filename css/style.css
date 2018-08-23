@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@charset "UTF-8";
 /*------------------------------------------------------------------
 [Master Stylesheet]
 Project:	Matresume
@@ -706,6 +707,9 @@ p2 {
 .font-red {
   color: #ff3d00 !important; }
 
+.font-violet {
+  color: #6200eb !important; }
+
 .bg-green {
   background: #01c853 !important; }
 
@@ -732,6 +736,9 @@ p2 {
 
 .border-top-red {
   border-top: 3px solid #ff3d00; }
+
+.border-top-violet {
+  border-top: 3px solid #6200eb; }
 
 .font-uppercase {
   text-transform: uppercase; }
