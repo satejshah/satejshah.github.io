@@ -168,9 +168,36 @@ p6 {
 
 
 p3 {
-  color: darkorange;
+  color: #E84A27;
   font-size: 17px;
   line-height: 25px; }
+
+p7 {
+  color: teal;
+  font-size: 17px;
+  line-height: 25px; }
+
+p8 {
+  color:#0B162A;
+  font-size: 17px;
+  line-height: 25px; }
+
+p9 {
+  color: #CE1141;
+  font-size: 17px;
+  line-height: 25px; }
+
+p10 {
+  color: #CF0A2C;
+  font-size: 17px;
+  line-height: 25px; }
+
+p11 {
+  color: #0E3386;
+  font-size: 17px;
+  line-height: 25px; }
+
+
   p.lead {
     font-size: 18px;
     line-height: 30px;
@@ -1444,6 +1471,18 @@ blockquote {
     left: 20px;
     bottom: 20px;
     z-index: 2; }
+
+
+  .portfolio-sec .light-img-wrap .img-cap-1 {
+    position: absolute;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    display: inline-block;
+    left: 20px;
+    bottom: 20px;
+    z-index: 2; }
 .portfolio-sec .item:hover .light-img-wrap img {
   -moz-transform: scale(1.1);
   -o-transform: scale(1.1);
@@ -1918,19 +1957,19 @@ body {
 }
 
 
-/** {
+{
   box-sizing: border-box;
-}*/
+}
 
-/*body {
+body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-}*/
+}
 
-/*.header {
+.header {
   text-align: center;
   padding: 32px;
-}*/
+}
 
 .row {
   display: -ms-flexbox; /* IE 10 */
